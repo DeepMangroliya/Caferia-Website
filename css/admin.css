@@ -1,0 +1,171 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+    /* font-size: 0.8rem; */
+}
+
+.tbl-order{
+    width: 110%;
+    font-size: 0.78rem;
+}
+
+.tbl-30{
+    width: 40%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    color: black;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+.success{
+    color:#2ed573;
+}
+
+.error{
+    color:#ff4757;
+}
+
+/*CSS for Menu*/
+.menu{
+    border-bottom: 1px solid grey;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+/*CSS for main-content*/
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/*CSS for footer*/
+
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+.footer a{
+    /* text-decoration: none; */
+    /* font-style: italic; */
+    color: white;
+}
+
+/*CSS for login*/
+.login{
+    /* color: #ff4757; */
+    border: 2px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: white;
+}
+
+.login-admin-body{
+    background-color: #f1f2f6;
+}
+
+.login input{
+    background-color: #f1f2f6;
+    border: 1px solid;
+    margin:2%;
+    padding: 1%;
+}
+
+.btn-login{
+    border: 2px solid grey;
+}
+
+.login-admin a{
+    text-decoration: none;
+    color: #ff4757;
+}
+
+
